@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-strapi-cms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.2.0",
+    "@nuxt/fonts": "^0.11.0",
+    "@nuxt/icon": "^1.11.0",
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/scripts": "^0.11.2",
+    "@nuxt/ui": "^3.0.0",
+    "@nuxtjs/strapi": "^2.0.0",
+    "@tanstack/vue-query": "^5.68.0",
+    "@unhead/vue": "^2.0.0-rc.8",
+    "nuxt": "^3.16.0",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue3-toastify": "^0.2.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-vue": "^10.0.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.8"
+  }
+}
