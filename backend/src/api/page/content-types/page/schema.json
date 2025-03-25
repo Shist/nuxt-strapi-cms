@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "common.intro-block",
+        "common.services-block",
+        "common.locations-block",
+        "common.partners-block",
+        "common.articles-block",
+        "common.info-block"
+      ]
+    }
+  }
+}

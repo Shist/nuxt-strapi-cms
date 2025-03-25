@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_articles_blocks",
+  "info": {
+    "displayName": "Articles Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

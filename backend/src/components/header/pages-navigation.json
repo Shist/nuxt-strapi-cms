@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_header_pages_navigations",
+  "info": {
+    "displayName": "Pages Navigation"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "pagesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.pages-list"
+    }
+  }
+}

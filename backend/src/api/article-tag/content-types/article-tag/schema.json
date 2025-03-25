@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_tags",
+  "info": {
+    "singularName": "article-tag",
+    "pluralName": "article-tags",
+    "displayName": "Article Tag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

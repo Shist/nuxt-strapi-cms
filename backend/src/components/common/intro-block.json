@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_common_intro_blocks",
+  "info": {
+    "displayName": "Intro Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isBtnNeeded": {
+      "type": "boolean"
+    },
+    "btnLink": {
+      "type": "string"
+    }
+  }
+}

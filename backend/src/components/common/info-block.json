@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_common_info_blocks",
+  "info": {
+    "displayName": "Info Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isBtnType": {
+      "type": "boolean"
+    },
+    "btnLabel": {
+      "type": "string"
+    },
+    "leftLinkImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rightLinkImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

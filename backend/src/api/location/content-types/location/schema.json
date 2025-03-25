@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "singularName": "location",
+    "pluralName": "locations",
+    "displayName": "Location"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "branchManager": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "placeName": {
+      "type": "string"
+    },
+    "placeAddress": {
+      "type": "string"
+    }
+  }
+}

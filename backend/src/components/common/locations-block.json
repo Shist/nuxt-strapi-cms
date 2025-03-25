@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_locations_blocks",
+  "info": {
+    "displayName": "Locations Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "searchPlaceholder": {
+      "type": "string"
+    },
+    "searchBtnLabel": {
+      "type": "string"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    }
+  }
+}

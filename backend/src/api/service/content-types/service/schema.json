@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "services",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "Article"
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
   },
   "options": {
     "draftAndPublish": true
@@ -17,19 +17,11 @@
       "type": "media",
       "multiple": false
     },
-    "author": {
+    "title": {
       "type": "string"
-    },
-    "date": {
-      "type": "date"
     },
     "description": {
       "type": "text"
-    },
-    "articleTags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article-tag.article-tag"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_pages_lists",
+  "info": {
+    "displayName": "Pages List"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
